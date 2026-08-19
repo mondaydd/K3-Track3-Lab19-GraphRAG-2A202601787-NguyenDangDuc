@@ -1,7 +1,7 @@
 # Báo Cáo Thực Hành & Thuyết Minh Kỹ Thuật - Lab 19: GraphRAG vs Flat RAG
 
-**Học viên:** Nguyễn Đăng Đức - 2A202601787
-**Khóa học:** K3 – Track 3 
+**Học viên:** Nguyễn Đăng Đức - 2A202601787  
+**Khóa học:** K3 – Track 3  
 **Ngày thực hiện:** 19/08/2026  
 
 ---
@@ -52,40 +52,6 @@
 
 | Nhóm câu hỏi (Group) | Tiêu chí đánh giá (Metric) | Flat RAG | GraphRAG | Nhận xét phân tích thực nghiệm |
 |----------------------|----------------------------|----------|----------|--------------------------------|
-| **cross-doc** | Comprehensiveness | **5.0** | 5.0 | Flat RAG ket qua tot hon. |
-| **cross-doc** | Faithfulness | **5.0** | 5.0 | Flat RAG ket qua tot hon. |
-| **cross-doc** | Multi-hop reasoning | **4.0** | 4.0 | Flat RAG ket qua tot hon. |
-| **cross-doc** | Latency (s) | 6.218 | **7.02** | Flat RAG thuong re/nhanh hon. |
-| **cross-doc** | Token usage | **783.0** | 783.0 | GraphRAG tuong duong. |
-| **factoid** | Comprehensiveness | 4.0 | **5.0** | GraphRAG vuot troi hon ro ret. |
-| **factoid** | Faithfulness | 5.0 | 5.0 | Hai phuong phap ngang ngua nhau. |
-| **factoid** | Multi-hop reasoning | 3.5 | **4.0** | GraphRAG vuot troi hon ro ret. |
-| **factoid** | Latency (s) | 1.629 | **4.723** | Flat RAG thuong re/nhanh hon. |
-| **factoid** | Token usage | **490.0** | 490.0 | GraphRAG tuong duong. |
-| **multi-hop** | Comprehensiveness | **4.5** | 4.5 | Flat RAG ket qua tot hon. |
-| **multi-hop** | Faithfulness | **4.5** | 4.5 | Flat RAG ket qua tot hon. |
-| **multi-hop** | Multi-hop reasoning | 3.5 | 3.5 | Hai phuong phap ngang ngua nhau. |
-| **multi-hop** | Latency (s) | 2.548 | **7.59** | Flat RAG thuong re/nhanh hon. |
-| **multi-hop** | Token usage | **633.5** | 633.5 | GraphRAG tuong duong. |
-
-----------------------|----------------------------|----------|----------|--------------------------------|
-| **cross-doc** | Comprehensiveness | **5.0** | 4.0 | Flat RAG ket qua tot hon. |
-| **cross-doc** | Faithfulness | **5.0** | 4.0 | Flat RAG ket qua tot hon. |
-| **cross-doc** | Multi-hop reasoning | **4.0** | 3.0 | Flat RAG ket qua tot hon. |
-| **cross-doc** | Latency (s) | 6.218 | **7.02** | Flat RAG thuong re/nhanh hon. |
-| **cross-doc** | Token usage | **783.0** | 731.0 | GraphRAG tuong duong. |
-| **factoid** | Comprehensiveness | 4.0 | **5.0** | GraphRAG vuot troi hon ro ret. |
-| **factoid** | Faithfulness | 5.0 | 5.0 | Hai phuong phap ngang ngua nhau. |
-| **factoid** | Multi-hop reasoning | 3.5 | **4.0** | GraphRAG vuot troi hon ro ret. |
-| **factoid** | Latency (s) | 1.629 | **4.723** | Flat RAG thuong re/nhanh hon. |
-| **factoid** | Token usage | **490.0** | 453.0 | GraphRAG tuong duong. |
-| **multi-hop** | Comprehensiveness | **4.5** | 4.0 | Flat RAG ket qua tot hon. |
-| **multi-hop** | Faithfulness | **4.5** | 4.0 | Flat RAG ket qua tot hon. |
-| **multi-hop** | Multi-hop reasoning | 3.5 | 3.5 | Hai phuong phap ngang ngua nhau. |
-| **multi-hop** | Latency (s) | 2.548 | **7.59** | Flat RAG thuong re/nhanh hon. |
-| **multi-hop** | Token usage | **633.5** | 596.5 | GraphRAG tuong duong. |
-
-----------------------|----------------------------|----------|----------|--------------------------------|
 | **factoid** | Comprehensiveness | 4.00 | **5.00** | GraphRAG trích xuất đúng seed `OpenAI` & `Microsoft` giúp trả lời đầy đủ hơn (+1.0). |
 | **factoid** | Faithfulness | 5.00 | 5.00 | Hai phương pháp đều đạt độ trung thực tuyệt đối. |
 | **factoid** | Multi-hop reasoning | 3.50 | **4.00** | GraphRAG kết nối mối quan hệ tổ chức - công nghệ vượt trội hơn (+0.5). |
